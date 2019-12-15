@@ -1,85 +1,24 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The web site of amakaev</title>
-    <!-- The style.css file allows you to change the look of your web pages.
-         If you include the next line in all your web pages, they will all share the same look.
-         This makes it easier to make new pages for your site. -->
-    
-    <style>
-    html,body,container{
-     width: 100%;
-     height: 100%;
-    }
-    html,body,container,header,footer,menu,content,aside{
-     margin: 0px; 
-    }
-    container{
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <audio controls>
+        <source src="Sound_19341.mp3">
 
-      display: grid;
-      grid-template-areas:  "h h h h h h"
-                            "m c c c c a"
-                            "f f f f f f";
-      grid-template-rows: 1fr 5fr 1fr;
-     background-color: black ;
-     grid-column-gap: 25px;
-    }
-    header{
-       background-color: green ;
-       grid-area: h;
-       display: flex;
-       justify-content: space-around;
-       align-items: center;
-    }
-     footer{
-       background-color: green ;
-        grid-area: f;
-    }
-     menu{
-       background-color: silver ;
-        grid-area: m;
-    }
-     content{
-       background-color: yellow ;
-       grid-area: c;
-    }
-    aside{
-       background-color: aqua ;
-       grid-area: a;
-    }
-    </style>
-  </head>
-  <body>
-    <container>
-      <header>
-      <div class=header_item style="color:red;font-size:130%;font-family: fantasy; border: 8px double red; padding: 5x;" >73 школа</div>
-      <div class=header_item><a href=#>Главная</a></div>
-       <div class=header_item><a href=#>Помощь учителю</a></div>
-        <div class=header_item><a href=#>Помощь ученику</a></div>
-      <div class=header_item>Наши ученики</div>
-      <div class=header_item>Наши учителя</div>
-      <div class=header_item>Наши выпускники</div>
-       <div class=header_item>Жизнь школы</div>
-      </header>
-      
-      <menu>
-      Меню сайта
-      </menu>
-      
-      <content>
-      Основной контент
-      </content>
-      
-      <aside>
-      Реклама
-      </aside>
-      
-      <footer>
-      Подвал
-      </footer>
-    
-    </container>
-  </body>
+    </audio>
+
+    <audio controls>
+        <source src="little-big_-_skibidi.mp3">
+            
+    </audio>
+    <video controls poster="300px-Майк_Вазовски_с_лицом_Салли_шаблон.jpg">
+        <source src="videoplayback.mp4">
+    </video>
+
+</body>
 </html>
